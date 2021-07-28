@@ -1,0 +1,105 @@
+
+html{
+  font-size: 62.5%;
+  font-family: 'Exo', sans-serif;
+}
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+
+/* Estilos generales*/
+.container{
+  position: relative;
+}
+
+.gen-caja-de-texto{
+  width: 80%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  outline: none;
+}
+
+
+.gen-boton-general{
+  width: 50%;
+  height: 40px;
+
+  border: solid;
+  border-color: rgba(161, 218, 255, 0.459);
+  background-color: rgba(0, 66, 190, 0.452);
+  border-radius: 15px;
+
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*Estilos del Login.*/
+.login-fondo{
+  height: 100vh;
+
+  background: linear-gradient(to bottom right, rgb(4, 0, 255), rgb(0, 140, 255));
+}
+.login-fondo img{
+  position: absolute;
+  height: 100vh;
+}
+
+.login-formulario{
+  position: absolute;
+  right: 17%;
+  top: 20%;
+  height: 60%;
+  width: 30%;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.301);
+  text-align: center;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-formulario h2{
+  font-size: 4rem;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 50%;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+
+/* Position the tooltip text - see examples below! */
+position: absolute;
+top: 0;
+left: 105%;
+z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
